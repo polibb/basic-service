@@ -1,3 +1,9 @@
+var greet = require('./greet');
+
+greet.english();
+greet.spanish();
+
+
 // function Person(firstname, lastname) {
 	
 // 	this.firstname = firstname;
@@ -39,15 +45,15 @@
 // changeObj(c);
 // console.log(c);
 
-// IIFE
-var firstname = 'Jane';
+// // IIFE
+// var firstname = 'Jane';
 
-(function (lastname) {
+// (function (lastname) {
 
-	var firstname = 'John';
-	console.log(firstname);
-	console.log(lastname);
+// 	var firstname = 'John';
+// 	console.log(firstname);
+// 	console.log(lastname);
 	
-}('Doe'));
+// }('Doe'));
 
-console.log(firstname);
+// console.log(firstname);
