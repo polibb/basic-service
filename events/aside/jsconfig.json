@@ -1,0 +1,5 @@
+{
+    "compilerOptions": {
+        "target": "ES6" // this folder contains ES6 code; might need this, might not
+    }
+}
